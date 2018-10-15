@@ -1,4 +1,4 @@
-﻿// ================================================================
+// ================================================================
 //
 //		SpoutSDK
 //
@@ -107,6 +107,8 @@
 		OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 #include "SpoutSDK.h"
+
+#ifdef TARGET_WIN32
 
 Spout::Spout()
 {
@@ -1721,4 +1723,6 @@ void Spout::UseAccessLocks(bool bUseLocks)
 {
 	interop.spoutdx.bUseAccessLocks = bUseLocks;
 }
+
+#endif
 

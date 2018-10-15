@@ -31,6 +31,8 @@
 #ifndef __SpoutSender__
 #define __SpoutSender__
 
+#ifdef TARGET_WIN32
+
 #include "spoutSDK.h"
 
 class SPOUT_DLLEXP SpoutSender {
@@ -79,5 +81,7 @@ protected :
 	bool bInv; // LJ DEBUG Transition flag for a 2.005 app with a 2.004 user installation
 
 };
+
+#endif //#ifdef TARGET_WIN32
 
 #endif

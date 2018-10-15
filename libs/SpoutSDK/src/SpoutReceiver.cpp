@@ -1,4 +1,4 @@
-﻿//
+//
 //		SpoutReceiver
 //
 //		Wrapper class so that a receiver object can be created independent of a sender
@@ -48,6 +48,8 @@
 
 */
 #include "SpoutReceiver.h"
+
+#ifdef TARGET_WIN32
 
 SpoutReceiver::SpoutReceiver()
 {
@@ -256,3 +258,6 @@ int SpoutReceiver::GetVerticalSync()
 {
 	return spout.interop.GetVerticalSync();
 }
+
+#endif
+

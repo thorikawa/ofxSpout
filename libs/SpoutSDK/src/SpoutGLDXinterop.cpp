@@ -118,6 +118,8 @@
 
  */
 
+#ifdef TARGET_WIN32
+
 #include "spoutGLDXinterop.h"
 
 spoutGLDXinterop::spoutGLDXinterop() {
@@ -3216,3 +3218,4 @@ bool spoutGLDXinterop::CloseOpenGL()
 		return false;
 }
 
+#endif

@@ -35,6 +35,8 @@ http://www.codeproject.com/Articles/835818/Ultimate-Shared-Memory-A-flexible-cla
 
 */
 
+#ifdef TARGET_WIN32
+
 #include "SpoutSharedMemory.h"
 #include <assert.h>
 #include <string>
@@ -271,3 +273,5 @@ void SpoutSharedMemory::Debug()
 	}
 	*/
 }
+
+#endif

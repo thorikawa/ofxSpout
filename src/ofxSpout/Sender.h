@@ -1,5 +1,7 @@
 #pragma once
 
+#ifdef TARGET_WIN32
+
 #include "ofTexture.h"
 #include <string>
 #include "SpoutSender.h"
@@ -27,3 +29,5 @@ namespace ofxSpout {
 		int width, height;
 	};
 }
+
+#endif

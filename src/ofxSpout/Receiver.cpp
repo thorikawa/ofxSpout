@@ -2,6 +2,8 @@
 #include "ofGraphics.h"
 #include "Utils.h"
 
+#ifdef TARGET_WIN32
+
 namespace ofxSpout {
 	//----------
 	Receiver::Receiver() :
@@ -130,3 +132,5 @@ namespace ofxSpout {
 		return this->height;
 	}
 }
+
+#endif

@@ -57,6 +57,8 @@
 
 #include "spoutDirectX.h"
 
+#ifdef TARGET_WIN32
+
 spoutDirectX::spoutDirectX() {
 
 	// DX11
@@ -1004,4 +1006,4 @@ bool spoutDirectX::WriteDwordToRegistry(DWORD dwValue, const char *subkey, const
 
 }
 
-
+#endif

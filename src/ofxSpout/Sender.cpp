@@ -1,3 +1,5 @@
+#ifdef TARGET_WIN32
+
 #include "Sender.h"
 
 #include "ofFbo.h"
@@ -143,3 +145,5 @@ namespace ofxSpout {
 		}
 	}
 };
+
+#endif

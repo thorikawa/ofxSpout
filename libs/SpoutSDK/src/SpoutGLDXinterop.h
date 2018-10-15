@@ -36,6 +36,8 @@
 #ifndef __spoutGLDXinterop__ // standard way as well
 #define __spoutGLDXinterop__
 
+#ifdef TARGET_WIN32
+
 #include "SpoutCommon.h"
 #include "spoutGLextensions.h"
 #include "spoutDirectX.h"
@@ -229,5 +231,7 @@ protected:
 
 
 };
+
+#endif //#ifdef TARGET_WIN32
 
 #endif

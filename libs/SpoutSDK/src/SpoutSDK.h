@@ -32,6 +32,8 @@
 #ifndef __SpoutSDK__
 #define __SpoutSDK__
 
+#ifdef TARGET_WIN32
+
 #include <windows.h>
 #include <set>
 #include <string>
@@ -210,6 +212,6 @@ class SPOUT_DLLEXP Spout {
 
 };
 
+#endif //#ifdef TARGET_WIN32
+
 #endif
-
-

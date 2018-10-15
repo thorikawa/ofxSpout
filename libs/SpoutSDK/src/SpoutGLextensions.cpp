@@ -36,6 +36,8 @@
 
 #include "spoutGLextensions.h"
 
+#ifdef TARGET_WIN32
+
 #ifndef USE_GLEW
 
 // GL/DX extensions
@@ -346,3 +348,5 @@ unsigned int loadGLextensions() {
 	return caps;
 
 }
+
+#endif

@@ -32,6 +32,8 @@
 #ifndef __spoutDirectX__ 
 #define __spoutDirectX__
 
+#ifdef TARGET_WIN32
+
 #include "SpoutCommon.h"
 #include <windowsx.h>
 #include <d3d9.h>
@@ -121,5 +123,7 @@ class SPOUT_DLLEXP spoutDirectX {
 		D3D_FEATURE_LEVEL		g_featureLevel;
 
 };
+
+#endif //#ifdef TARGET_WIN32
 
 #endif

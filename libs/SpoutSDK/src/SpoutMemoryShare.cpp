@@ -45,6 +45,8 @@
 #include "spoutMemoryShare.h"
 #include <assert.h>
 
+#ifdef TARGET_WIN32
+
 spoutMemoryShare::spoutMemoryShare() {
 	senderMem = NULL; // Important because this is checked
 	m_Width = 0;
@@ -229,4 +231,4 @@ void spoutMemoryShare::UnlockSenderMemory()
 	senderMem->Unlock();
 }
 
-
+#endif

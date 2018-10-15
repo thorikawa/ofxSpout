@@ -1,6 +1,8 @@
 #include "Utils.h"
 #include "ofGLUtils.h"
 
+#ifdef TARGET_WIN32
+
 namespace ofxSpout {
 	//----------
 	int toGLFormat(const DXGI_FORMAT & format) {
@@ -22,3 +24,5 @@ namespace ofxSpout {
 		}
 	}
 }
+
+#endif

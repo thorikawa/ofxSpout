@@ -40,6 +40,8 @@
 #ifndef __spoutMemoryShare__
 #define __spoutMemoryShare__
 
+#ifdef TARGET_WIN32
+
 #include <windowsx.h>
 #include <string>
 #include "SpoutCommon.h"
@@ -81,5 +83,7 @@ protected:
 		unsigned int m_Height;
 
 };
+
+#endif //#ifdef TARGET_WIN32
 
 #endif

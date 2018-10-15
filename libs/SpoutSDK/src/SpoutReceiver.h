@@ -30,6 +30,8 @@
 #ifndef __SpoutReceiver__
 #define __SpoutReceiver__
 
+#ifdef TARGET_WIN32
+
 #include "spoutSDK.h"
 
 class SPOUT_DLLEXP SpoutReceiver {
@@ -85,4 +87,7 @@ protected :
 
 };
 
+#endif //#ifdef TARGET_WIN32
+
 #endif
+

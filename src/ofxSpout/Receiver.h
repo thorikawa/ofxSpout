@@ -1,5 +1,7 @@
 #pragma once
 
+#ifdef TARGET_WIN32
+
 #include "ofTexture.h"
 #include <string>
 #include "SpoutReceiver.h"
@@ -30,3 +32,5 @@ namespace ofxSpout {
 		const int defaultFormat; // = GL_RGBA. If you're using anything else then make sure to allocate your texture manually
 	};
 }
+
+#endif

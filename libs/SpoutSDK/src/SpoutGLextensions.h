@@ -57,6 +57,7 @@
 #ifndef __spoutGLextensions__	// standard way as well
 #define __spoutGLextensions__
 
+#ifdef TARGET_WIN32
 // set this to use GLEW instead of dynamic load of extensions
 // #define USE_GLEW	
 // set this to use glew32s.lib instead of glew32.lib
@@ -310,5 +311,7 @@ bool loadFBOextensions();
 bool loadBLITextension();
 bool loadSwapExtensions();
 bool loadPBOextensions();
+
+#endif //#ifdef TARGET_WIN32
 
 #endif

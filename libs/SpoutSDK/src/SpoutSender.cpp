@@ -1,4 +1,4 @@
-﻿//
+//
 //		SpoutSender
 //
 //		Wrapper class so that a sender object can be created independent of a receiver
@@ -47,6 +47,8 @@
 
 */
 #include "SpoutSender.h"
+
+#ifdef TARGET_WIN32
 
 SpoutSender::SpoutSender()
 {
@@ -209,3 +211,5 @@ bool SpoutSender::SenderDebug(char *Sendername, int size)
 	return spout.interop.senders.SenderDebug(Sendername, size);
 
 }
+
+#endif

@@ -38,6 +38,8 @@
 #ifndef __spoutSenderNames__ // standard way as well
 #define __spoutSenderNames__
 
+#ifdef TARGET_WIN32
+
 #include <windowsx.h>
 #include <d3d9.h>
 #include <d3d11.h>
@@ -158,5 +160,7 @@ protected:
 
 
 };
+
+#endif //#ifdef TARGET_WIN32
 
 #endif
