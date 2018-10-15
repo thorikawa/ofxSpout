@@ -118,7 +118,7 @@
 
  */
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include "spoutGLDXinterop.h"
 

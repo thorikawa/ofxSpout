@@ -48,7 +48,7 @@
 */
 #include "SpoutSender.h"
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 SpoutSender::SpoutSender()
 {

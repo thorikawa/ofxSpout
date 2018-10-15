@@ -36,7 +36,7 @@
 #ifndef __spoutGLDXinterop__ // standard way as well
 #define __spoutGLDXinterop__
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include "SpoutCommon.h"
 #include "spoutGLextensions.h"

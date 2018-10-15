@@ -45,7 +45,7 @@
 #include "spoutMemoryShare.h"
 #include <assert.h>
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 spoutMemoryShare::spoutMemoryShare() {
 	senderMem = NULL; // Important because this is checked

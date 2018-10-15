@@ -49,7 +49,7 @@
 */
 #include "SpoutReceiver.h"
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 SpoutReceiver::SpoutReceiver()
 {

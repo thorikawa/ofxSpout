@@ -38,7 +38,7 @@
 #ifndef __spoutSenderNames__ // standard way as well
 #define __spoutSenderNames__
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include <windowsx.h>
 #include <d3d9.h>

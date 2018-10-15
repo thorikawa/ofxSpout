@@ -68,7 +68,7 @@
 
 */
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include "spoutSenderNames.h"
 #include <assert.h>

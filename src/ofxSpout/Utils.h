@@ -1,5 +1,7 @@
 #pragma once
 
+#include "ofMain.h"
+
 #ifdef TARGET_WIN32
 #include "dxgiformat.h"
 

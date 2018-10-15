@@ -35,7 +35,7 @@
 #ifndef __SpoutSharedMemory_ // standard way as well
 #define __SpoutSharedMemory_
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include "SpoutCommon.h"
 #include <windowsx.h>

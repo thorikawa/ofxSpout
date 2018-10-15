@@ -30,7 +30,7 @@
 #ifndef __SpoutReceiver__
 #define __SpoutReceiver__
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include "spoutSDK.h"
 

@@ -32,7 +32,7 @@
 #ifndef __spoutDirectX__ 
 #define __spoutDirectX__
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include "SpoutCommon.h"
 #include <windowsx.h>

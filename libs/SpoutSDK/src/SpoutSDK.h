@@ -32,7 +32,7 @@
 #ifndef __SpoutSDK__
 #define __SpoutSDK__
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include <windows.h>
 #include <set>

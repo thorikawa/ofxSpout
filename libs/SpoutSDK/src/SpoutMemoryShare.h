@@ -40,7 +40,7 @@
 #ifndef __spoutMemoryShare__
 #define __spoutMemoryShare__
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 #include <windowsx.h>
 #include <string>

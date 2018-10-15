@@ -108,7 +108,7 @@
 */
 #include "SpoutSDK.h"
 
-#ifdef TARGET_WIN32
+#ifdef _WIN32
 
 Spout::Spout()
 {
